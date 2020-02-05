@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neumorphism</title>
+    <style>
+        body{
+            background-color: #cdcdcd;
+        }
+        .pressed{
+            width: 24px;
+            height: 24px;
+            padding: 10px;
+            border-radius: 16px;
+            background: #cdcdcd;
+            box-shadow: inset 2px 2px 5px #aeaeae, 
+                        inset -2px -2px 5px #ececec;
+        }
+        .flat{
+            width: 24px;
+            height: 24px;
+            padding: 10px;
+            border-radius: 16px;
+            background: #cdcdcd;
+            box-shadow:  2px 2px 5px #aeaeae, 
+             -2px -2px 5px #ececec;
+        }
+
+        .concave{
+            width: 24px;
+            height: 24px;
+            padding: 10px;
+            border-radius: 16px;
+            background: linear-gradient(145deg, #dbdbdb, #b9b9b9);
+            box-shadow:  2px 2px 5px #aeaeae, 
+             -2px -2px 5px #ececec;
+        }
+
+        .convex{
+            width: 24px;
+            height: 24px;
+            padding: 10px;
+            border-radius: 16px;
+            background: linear-gradient(145deg, #b9b9b9, #dbdbdb);
+            box-shadow:  2px 2px 5px #aeaeae, 
+             -2px -2px 5px #ececec;
+        }
+    </style>
+</head>
+<body>
+    <div class="pressed"></div><br>
+    <div class="flat"></div><br>
+    <div class="concave"></div><br>
+    <div class="convex"></div>
+</body>
+</html>
